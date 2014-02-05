@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tweet To Pull</title>
+        <link href="css/foundation.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+        <script src="js/modernizr.foundation.js"></script>
+	</head>
+		
+
+	<body>
+		    <nav>
+			    <img src="img/Nestle_Toll_House.svg">
+			</nav><!--end nav-->
+
+
+			<div class="row">
+				<div class="four columns">
+			   		<a class="twitter-timeline" href="https://twitter.com/search?q=%23BadCookie" data-widget-id="427797259355299840">Tweets about "#BadCookie"</a>
+
+
+			   	</div><!--end four columns-->
+
+
+			   	<div class="eight columns">
+			   		<div class="button-frame plastic">
+				  <div class="the-button plastic"></div>
+			  	</div>
+
+			  	<div id="pull">
+			  		<img src="img/clickPull.png">
+				</div>
+
+			   		<video width="640" height="360" controls>
+					  	<source src="img/video.mp4" type="video/mp4">
+					  	<source src="movie.ogg" type="video/ogg">
+						Your browser does not support the video tag.
+					</video><!--end video-->
+			   	</div><!--end eight columns-->
+			</div><!--end row-->
+
+			 
+			<div class="row social">
+			  	<ul class="four columns centered">
+			  		<li><a href="http://google.com"><img src="img/Facebook.png"></a></li>
+			  		<li><a href="http://google.com"><img src="img/Twitter.png"></a></li>
+			  		<li><a href="http://google.com"><img src="img/Tumblr.png"></a></li>
+			  	</ul><!--end social-->
+			</div><!--end row-->
+
+
+		<footer id="credits">
+			<img id="konamiCode" src="duckhunt/konamiCode.png">
+			<a href="http://iamtheream.com">&copy; 2013 Matt Reamer</a>
+			<a href="http://donnieplumly.com"> / Donnie Plumly</a> / 
+			<a href="http://brandcenter.com"> VCU Brandcenter Project</a>
+		</footer>
+
+
+		<!-- <javascript> -->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		</script>
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/dog.js"></script>
+
+		<script type="text/javascript">
+           $(window).load(function() {
+              $('.button').duckHunt({
+                    'enterOn' : 'konami-code', //timer, konami-code, click
+                        'delayTime' : 5000 //time before dog appears on timer mode
+                    });
+                });
+        </script>
+
+        <a href="#" class="button"></a>
+    
+        <img id="duckHuntDog" style="display: block; z-index: 20; position: fixed; bottom: -150px; right: 0px;" src="img/Kunami_Tommy.png">
+        <audio style="visibility:hidden;" id="perfectScore" preload="auto">
+            <source src="img/ZOOM00121.MP3">
+            <source src="img/perfectScore.ogg">
+        </audio>
+
+  	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
